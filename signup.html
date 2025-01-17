@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sign Up</title>
+    <script defer src="./js/signup.js"></script>
+    <script src="./axios.min.js"></script>
+    
+    
+</head>
+<body>
+    <main>
+        <h1 id="id_h3"></h1>
+        <form id="id_form" action="home.html" method="post">
+          <h3>Please sign in</h3>
+      
+          <div class="form-floating">
+            <label for="inputName">Name</label>
+            <input type="text" id="inputName" name="inputName">
+          </div>
+          <div class="form-floating">
+            <label for="inputEmail">Email address</label>
+            <input type="email" id="inputEmail" name="inputEmail">
+          </div>
+          <div class="form-floating">
+            <label for="inputPassword">Password</label>
+            <input type="password" id="inputPassword" name="inputPassword">
+          </div>
+          <div class="form-floating">
+            <label for="inputConfirmPassword">Confirm Password</label>
+            <input type="password" id="inputConfirmPassword" name="inputConfirmPassword">
+          </div>
+          <button class="btn" type="submit">Sign Up</button>
+        </form>
+        <span></span>
+      </main>
+    
+</body>
+</html>

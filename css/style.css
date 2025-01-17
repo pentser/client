@@ -34,8 +34,11 @@ span {
     width: 200px;
 }
 
-
-/* home page */
+/* signup page */
+main h1, form h3{
+    color:crimson;
+    font-family: tahoma;
+}
 
 
 
