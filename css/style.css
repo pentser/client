@@ -1,0 +1,41 @@
+/* landing page */
+
+.form {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+
+.form .start {
+    align-self: flex-end;
+}
+
+.form #name {
+    width: 350px;
+   
+}
+
+span {
+    color:red;
+    display: none;
+}
+
+
+/* signup page */
+
+.form-floating {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-floating input {
+    width: 200px;
+}
+
+
+/* home page */
+
+
+
