@@ -35,7 +35,7 @@ span {
 }
 
 /* signup page */
-main h1, form h3{
+main h1, form h3, header h1{
     color:crimson;
     font-family: tahoma;
 }

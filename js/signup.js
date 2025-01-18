@@ -61,9 +61,9 @@ async function init() {
               try {
 
                 const response=await axios.post("http://localhost:3000/validate", formData);
-                console.log(response);
                 const data= await axios.get("http://localhost:3000/home",{ params: { user: response  }});
-                 window.open(`${window.location.origin}/client/home.html`);
+                window.open(`${window.location.origin}/client/home.html?name=${user}`);
+     
                
                
               }
