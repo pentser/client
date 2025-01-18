@@ -1,19 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
 /* landing page */
 
 .form {
     max-width: 350px;
     display: flex;
     flex-direction: column;
-    align-items:center;
-
+    margin: 0 auto;
 }
 
 .form .start {
     align-self: flex-end;
+    
+}
+
+.form .start #id_btn {
+    color: #fff;
+    background-color: #4fb541;
+    border: 1px solid black;
+    min-width: 80px;
+    padding: 5px 15px 5px 15px;
+
 }
 
 .form #name {
     width: 350px;
+    background-color: #ebe7e7;
+    border: 1px solid #9e9898;
+    margin: 15px;
+    padding: 15px;
+ 
    
 }
 
@@ -25,6 +43,7 @@ span {
 
 /* signup page */
 
+
 .form-floating {
     display: flex;
     flex-direction: column;
@@ -32,11 +51,31 @@ span {
 
 .form-floating input {
     width: 200px;
+    background-color: #bfbbbb;
+    line-height: 1.5;
+    border-radius: 4px;
+    
+}
+
+.form-floating label {
+    font-family: tahoma;
+    padding: 5px;
+}
+
+
+button {
+    width: 200px;
+    background-color: #4fb541;
+    color: white;
+    border:0;
+    border-radius: 4px;
+    margin-top: 15px;
+    padding: 7px;
 }
 
 /* signup page */
 main h1, form h3, header h1{
-    color:crimson;
+    color:#4fb541;
     font-family: tahoma;
 }
 
